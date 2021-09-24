@@ -40,3 +40,9 @@ application {
     // Define the main class for the application.
     mainClass = 'problemas.kotlin.AppKt'
 }
+
+test {
+	testLogging {
+		events "passed", "skipped", "failed", "standardOut", "standardError"
+	}
+} 
