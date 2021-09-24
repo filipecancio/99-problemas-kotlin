@@ -8,3 +8,4 @@
  */
 
 rootProject.name = "99-problemas-kotlin"
+include("app")
