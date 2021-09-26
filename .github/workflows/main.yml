@@ -19,80 +19,17 @@ jobs:
           java-version: '11'
       - name: Run Gradle Build
         run: ./gradlew build
-  lists:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Add Java 11
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'adopt'
-          java-version: '11'
-      - name: Run Gradle Build
-        run: ./gradlew build
-  arithmetic:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Add Java 11
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'adopt'
-          java-version: '11'
-      - name: Run Gradle Build
-        run: ./gradlew build
-  logic:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Add Java 11
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'adopt'
-          java-version: '11'
-      - name: Run Gradle Build
-        run: ./gradlew build
-  binarytrees:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Add Java 11
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'adopt'
-          java-version: '11'
-      - name: Run Gradle Build
-        run: ./gradlew build
-  multiwaytrees:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Add Java 11
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'adopt'
-          java-version: '11'
-      - name: Run Gradle Build
-        run: ./gradlew build
-  graphs:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Add Java 11
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'adopt'
-          java-version: '11'
-      - name: Run Gradle Build
-        run: ./gradlew build
-  dancinglinks:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Add Java 11
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'adopt'
-          java-version: '11'
-      - name: Run Gradle Build
-        run: ./gradlew build
+      - name: Run Lists tests
+        run: echo list tests
+      - name: Run Arithmetic tests
+        run: echo arithmetic tests
+      - name: Run Logic tests
+        run: echo logic tests
+      - name: Run Binarytrees tests
+        run: echo binarytrees tests
+      - name: Run Multiwaytrees tests
+        run: echo multiwaytrees tests
+      - name: Run Graphs tests
+        run: echo graphs tests
+      - name: Run Dancinglinks tests
+        run: echo dancinglinks tests
