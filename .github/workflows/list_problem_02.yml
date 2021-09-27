@@ -9,5 +9,5 @@ jobs:
   p02:
     runs-on: ubuntu-latest
     steps:
-      - name: P02
+      - name: P02 -
         run: echo problem 02

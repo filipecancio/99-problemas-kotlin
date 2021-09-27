@@ -1,0 +1,13 @@
+name: P02
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  p02:
+    runs-on: ubuntu-latest
+    steps:
+      - name: P02 -
+        run: echo problem 02
