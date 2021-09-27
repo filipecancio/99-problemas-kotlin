@@ -15,4 +15,4 @@ jobs:
           distribution: 'adopt'
           java-version: '11'
       - name: P01 - Encontre o último elemento de uma lista
-        run: gradle test --tests Problem01Test
+        run: gradle test --tests ListProblem01Test

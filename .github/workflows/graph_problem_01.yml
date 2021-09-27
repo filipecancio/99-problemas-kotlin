@@ -9,5 +9,10 @@ jobs:
   P01:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '11'
       - name: P01 -
-        run: echo problem 01
+        run: gradle test --tests GraphProblem01Test
