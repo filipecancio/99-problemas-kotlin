@@ -1,4 +1,4 @@
-name: P01 - Encontre o último elemento de uma lista
+name: P01
 
 on:
   push:
