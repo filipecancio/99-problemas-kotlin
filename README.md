@@ -60,6 +60,11 @@ Projeto baseado no [kotlin-99](https://github.com/dkandalov/kotlin-99) de [Dmitr
 #### ![P10](https://github.com/filipecancio/99-problemas-kotlin/actions/workflows/arithmetic_problem_10.yml/badge.svg?branch=main)
 #### ![P11](https://github.com/filipecancio/99-problemas-kotlin/actions/workflows/arithmetic_problem_11.yml/badge.svg?branch=main)
 ### Lógicos
+#### ![P01](https://github.com/filipecancio/99-problemas-kotlin/actions/workflows/logic_problem_01.yml/badge.svg?branch=main)
+#### ![P02](https://github.com/filipecancio/99-problemas-kotlin/actions/workflows/logic_problem_02.yml/badge.svg?branch=main)
+#### ![P03](https://github.com/filipecancio/99-problemas-kotlin/actions/workflows/logic_problem_03.yml/badge.svg?branch=main)
+#### ![P04](https://github.com/filipecancio/99-problemas-kotlin/actions/workflows/logic_problem_04.yml/badge.svg?branch=main)
+#### ![P05](https://github.com/filipecancio/99-problemas-kotlin/actions/workflows/logic_problem_05.yml/badge.svg?branch=main)
 ### Árvores binárias
 ### Árvores N-árias
 ### Grafos
