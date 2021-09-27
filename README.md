@@ -7,7 +7,7 @@ Projeto baseado no [kotlin-99](https://github.com/dkandalov/kotlin-99) de [Dmitr
 ## Problemas
 
 ### Listas
-- ![Problema 01](https://github.com/github/docs/actions/workflows/listproblem01.yml/badge.svg?branch=main) `P01` : Encontre o último elemento de uma lista
+- ![Problema 01](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?branch=main) `P01` : Encontre o último elemento de uma lista
 - P02: Encontre o penúltimo elemento de uma lista
 - P03: Encontre o n-ésimo elemento de uma lista
 - P04: Encontre o número de elementos de uma lista
