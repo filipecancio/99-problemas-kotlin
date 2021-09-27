@@ -8,4 +8,6 @@ on:
 jobs:
   p02:
     runs-on: ubuntu-latest
-    name: Encontre o penúltimo elemento de uma lista
+    steps:
+      - name: P02
+        run: echo problem 02
