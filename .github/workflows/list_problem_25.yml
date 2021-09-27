@@ -15,4 +15,4 @@ jobs:
           distribution: 'adopt'
           java-version: '11'
       - name: P25 -
-        run: gradle test --tests Problem25Test
+        run: gradle test --tests ListProblem25Test
