@@ -1,9 +1,9 @@
-package problemas.kotlin.list
+package problems.kotlin.list
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.core.IsEqual.equalTo
 import org.junit.Test
 
-class Problem01Test{
+class ListProblem01Test{
     private val list01 = listOf(1,2,3,4,5,6,7,8)
     private val list02 = listOf(1, listOf(1,2,3),3,4,5,6,7,8)
     private val list03 = listOf(1, listOf(1,2,3),3,4,5,6,7, listOf(1,2,3))

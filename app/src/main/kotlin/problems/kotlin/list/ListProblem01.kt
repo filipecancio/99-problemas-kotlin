@@ -1,4 +1,4 @@
-package problemas.kotlin.list
+package problems.kotlin.list
 
 fun last(list: List<Any>){}
 
