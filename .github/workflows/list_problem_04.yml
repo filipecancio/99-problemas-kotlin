@@ -1,4 +1,4 @@
-name: P04name: P04
+name: P04
 on:
   push:
     branches: [ main ]
