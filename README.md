@@ -7,7 +7,7 @@ Projeto baseado no [kotlin-99](https://github.com/dkandalov/kotlin-99) de [Dmitr
 ## Problemas
 
 ### Listas
-#### ![P01](https://github.com/filipecancio/99-problemas-kotlin/actions/workflows/list/list_problem_01.yml/badge.svg?branch=main) Encontre o último elemento de uma lista
+#### ![P01](https://github.com/filipecancio/99-problemas-kotlin/actions/workflows/list_problem_01.yml/badge.svg?branch=main) Encontre o último elemento de uma lista
 - Entrada
 ```
 > 1,2,3,4,5,6,7,8
